@@ -9,6 +9,7 @@ async function start() {
   const uri = undefined;
 
   await connectDB(uri);
+  
 
   const app = createApp();
 
